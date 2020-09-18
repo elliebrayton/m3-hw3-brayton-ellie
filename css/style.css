@@ -41,15 +41,19 @@ button {
   button:focus {
     outline: none; }
 
+.order {
+  margin-top: 40px; }
+
 .jumbotron {
   background-image: url("/img/banner-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   min-height: 300px; }
+  .jumbotron__container img {
+    max-width: 65%; }
 
 .footer {
   background: #080801; }
-
-.footer img {
-  max-width: 30%; }
+  .footer img {
+    max-width: 30%; }

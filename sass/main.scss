@@ -50,19 +50,28 @@ button{
     }
 }
 
+.order{
+    margin-top: 40px;
+}
+
 .jumbotron{
     background-image: url('/img/banner-bg.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     min-height: 300px;
-    
+    &__container{
+        img{
+            max-width: 65%;
+        }
+    }
 }
 
 .footer{
     background: $primary-black;
+    img{
+        max-width: 30%;
+    }
 }
 
-.footer img{
-    max-width: 30%;
-}
+
