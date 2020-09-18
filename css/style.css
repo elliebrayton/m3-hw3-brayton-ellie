@@ -1,0 +1,42 @@
+body {
+  font-family: "Roboto", sans-serif !important !important; }
+
+h1 {
+  font-family: "Roboto", sans-serif !important;
+  font-size: 30px;
+  display: none; }
+
+h2 {
+  font-family: "Roboto", sans-serif !important;
+  font-size: 30px;
+  text-transform: uppercase; }
+
+span {
+  font-family: "Roboto", sans-serif !important;
+  font-size: 30px;
+  color: #EE252F; }
+
+p {
+  font-family: "Roboto", sans-serif !important;
+  font-size: 16px;
+  color: #080801; }
+
+header {
+  background: #F8DF1F; }
+
+button {
+  font-family: "Roboto", sans-serif !important;
+  font-size: 18px;
+  color: #080801;
+  background-color: #F8DF1F;
+  border: none;
+  padding: 7px 10px;
+  text-transform: uppercase;
+  border-radius: 5px; }
+
+.jumbotron {
+  background-image: url("/img/banner-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 300px; }

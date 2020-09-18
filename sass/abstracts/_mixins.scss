@@ -1,0 +1,20 @@
+@mixin big-text{
+    font-family: $primary-font;
+    font-size: $font-size-lg;
+    $primary-font-weight: 500;
+}
+
+@mixin paragraph-text{
+    font-family: $primary-font;
+    font-size: $font-size-sm;
+    $primary-font-weight: 400;
+    color: $primary-black;
+}
+
+@mixin button{
+    font-family: $primary-font;
+    font-size: $font-size-md;
+    $primary-font-weight: 500;
+    color: $primary-black;
+    background-color: $primary-yellow;
+}

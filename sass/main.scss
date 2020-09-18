@@ -1,2 +1,44 @@
 @import "abstracts/variables";
 @import "abstracts/mixins";
+
+body{
+    font-family: $primary-font !important;
+}
+h1{
+    @include big-text;
+    display: none;
+}
+
+h2{
+    @include big-text;
+    text-transform: uppercase;
+}
+
+span{
+    @include big-text;
+    color: $primary-red;
+}
+
+p{
+    @include paragraph-text;
+}
+
+header{
+    background: $primary-yellow;
+}
+button{
+    @include button;
+    border: none;
+    padding: 7px 10px;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.jumbotron{
+    background-image: url('/img/banner-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 300px;
+    
+}
