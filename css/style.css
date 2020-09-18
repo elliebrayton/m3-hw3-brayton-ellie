@@ -56,7 +56,7 @@ button {
   background-position: center center;
   min-height: 300px; }
   .jumbotron__container img {
-    max-width: 65%; }
+    max-width: 100%; }
 
 .container-fluid {
   padding: 0px; }
@@ -68,3 +68,7 @@ button {
   background: #080801; }
   .footer img {
     max-width: 30%; }
+
+@media (max-width: 645px) {
+  .footer img {
+    max-width: 45%; } }
