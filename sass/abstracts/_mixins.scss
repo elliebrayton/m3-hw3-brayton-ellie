@@ -11,10 +11,9 @@
     color: $primary-black;
 }
 
-@mixin button{
+@mixin small-text{
     font-family: $primary-font;
     font-size: $font-size-md;
     $primary-font-weight: 500;
     color: $primary-black;
-    background-color: $primary-yellow;
 }

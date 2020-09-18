@@ -13,11 +13,10 @@ h1{
 h2{
     @include big-text;
     text-transform: uppercase;
-}
-
-span{
-    @include big-text;
-    color: $primary-red;
+    span{
+        @include big-text;
+        color: $primary-red;
+    }
 }
 
 p{
@@ -27,12 +26,28 @@ p{
 header{
     background: $primary-yellow;
 }
+
+li{
+    a{
+        &:link,
+        &:visited{
+        @include small-text;
+            span{
+                color: $primary-red;
+            }
+        }
+    }
+}
+
 button{
-    @include button;
+    @include small-text;
     border: none;
-    padding: 7px 10px;
     text-transform: uppercase;
     border-radius: 5px;
+    background-color: $primary-yellow;
+    &:focus{
+        outline: none;
+    }
 }
 
 .jumbotron{

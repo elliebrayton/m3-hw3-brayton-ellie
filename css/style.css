@@ -10,11 +10,10 @@ h2 {
   font-family: "Roboto", sans-serif !important;
   font-size: 30px;
   text-transform: uppercase; }
-
-span {
-  font-family: "Roboto", sans-serif !important;
-  font-size: 30px;
-  color: #EE252F; }
+  h2 span {
+    font-family: "Roboto", sans-serif !important;
+    font-size: 30px;
+    color: #EE252F; }
 
 p {
   font-family: "Roboto", sans-serif !important;
@@ -24,15 +23,23 @@ p {
 header {
   background: #F8DF1F; }
 
+li a:link, li a:visited {
+  font-family: "Roboto", sans-serif !important;
+  font-size: 18px;
+  color: #080801; }
+  li a:link span, li a:visited span {
+    color: #EE252F; }
+
 button {
   font-family: "Roboto", sans-serif !important;
   font-size: 18px;
   color: #080801;
-  background-color: #F8DF1F;
   border: none;
-  padding: 7px 10px;
   text-transform: uppercase;
-  border-radius: 5px; }
+  border-radius: 5px;
+  background-color: #F8DF1F; }
+  button:focus {
+    outline: none; }
 
 .jumbotron {
   background-image: url("/img/banner-bg.png");
