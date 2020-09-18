@@ -41,6 +41,7 @@ li{
         @include small-text;
             span{
                 color: $primary-red;
+                text-transform: uppercase;
             }
         }
     }
