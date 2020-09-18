@@ -1,6 +1,7 @@
 @import "abstracts/variables";
 @import "abstracts/mixins";
 
+
 body{
     font-family: $primary-font !important;
 }
@@ -41,4 +42,12 @@ button{
     background-position: center center;
     min-height: 300px;
     
+}
+
+.footer{
+    background: $primary-black;
+}
+
+.footer img{
+    max-width: 30%;
 }

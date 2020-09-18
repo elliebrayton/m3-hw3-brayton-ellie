@@ -40,3 +40,9 @@ button {
   background-repeat: no-repeat;
   background-position: center center;
   min-height: 300px; }
+
+.footer {
+  background: #080801; }
+
+.footer img {
+  max-width: 30%; }
