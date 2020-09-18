@@ -1,10 +1,17 @@
 @import "abstracts/variables";
 @import "abstracts/mixins";
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+}
+
 
 body{
     font-family: $primary-font;
 }
+
 h1{
     @include big-text;
     display: none;
@@ -67,11 +74,18 @@ button{
     }
 }
 
+.container-fluid {
+    padding: 0px;
+}
+
+.bg-secondary{
+    background-color: $primary-white !important;
+}
+
 .footer{
     background: $primary-black;
     img{
         max-width: 30%;
     }
 }
-
 

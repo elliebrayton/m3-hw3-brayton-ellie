@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: none; }
+
 body {
   font-family: "Roboto", sans-serif !important; }
 
@@ -52,6 +57,12 @@ button {
   min-height: 300px; }
   .jumbotron__container img {
     max-width: 65%; }
+
+.container-fluid {
+  padding: 0px; }
+
+.bg-secondary {
+  background-color: #F3F3F3 !important; }
 
 .footer {
   background: #080801; }
